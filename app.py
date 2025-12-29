@@ -14,7 +14,7 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.
 server = app.server
 
 app.layout = dbc.Container([
-	html.H1('Ancient Genotyped Variants Proxy Catalog'),
+	html.H1('AncientProxy'),
 	html.P([
 		'This tool identifies ancient genotyped variants (AGVs) from the ',
 		html.A('Allen Ancient DNA Resource', href='https://reich.hms.harvard.edu/allen-ancient-dna-resource-aadr-downloadable-genotypes-present-day-and-ancient-dna-data', target='_blank', style={'color': 'blue', 'textDecoration': 'underline'}),

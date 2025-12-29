@@ -1,4 +1,4 @@
-name: AGVs_dash_app
+name: ancientproxy
 channels:
   - bioconda
   - r
